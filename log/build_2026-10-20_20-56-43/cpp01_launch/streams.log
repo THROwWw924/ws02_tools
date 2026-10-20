@@ -1,0 +1,58 @@
+[0.005s] Invoking command in '/home/derrickrose/ws02_tools/build/cpp01_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/derrickrose/ws02_tools/src/cpp01_launch -DCMAKE_INSTALL_PREFIX=/home/derrickrose/ws02_tools/install/cpp01_launch
+[0.075s] -- The C compiler identification is GNU 11.4.0
+[0.136s] -- The CXX compiler identification is GNU 11.4.0
+[0.143s] -- Detecting C compiler ABI info
+[0.189s] -- Detecting C compiler ABI info - done
+[0.194s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.194s] -- Detecting C compile features
+[0.195s] -- Detecting C compile features - done
+[0.197s] -- Detecting CXX compiler ABI info
+[0.254s] -- Detecting CXX compiler ABI info - done
+[0.259s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.259s] -- Detecting CXX compile features
+[0.259s] -- Detecting CXX compile features - done
+[0.263s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.366s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.431s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.464s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.467s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.473s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.482s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.494s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.525s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.527s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.580s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.596s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.622s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.628s] -- Looking for pthread.h
+[0.674s] -- Looking for pthread.h - found
+[0.674s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.717s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.718s] -- Found Threads: TRUE  
+[0.759s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.809s] -- Added test 'lint_cmake' to check CMake code style
+[0.809s] -- Added test 'xmllint' to check XML markup files
+[0.810s] -- Configuring done
+[0.813s] -- Generating done
+[0.814s] -- Build files have been written to: /home/derrickrose/ws02_tools/build/cpp01_launch
+[0.819s] Invoked command in '/home/derrickrose/ws02_tools/build/cpp01_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/derrickrose/ws02_tools/src/cpp01_launch -DCMAKE_INSTALL_PREFIX=/home/derrickrose/ws02_tools/install/cpp01_launch
+[0.820s] Invoking command in '/home/derrickrose/ws02_tools/build/cpp01_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/derrickrose/ws02_tools/build/cpp01_launch -- -j16 -l16
+[0.844s] Invoked command in '/home/derrickrose/ws02_tools/build/cpp01_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/derrickrose/ws02_tools/build/cpp01_launch -- -j16 -l16
+[0.849s] Invoking command in '/home/derrickrose/ws02_tools/build/cpp01_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/derrickrose/ws02_tools/build/cpp01_launch
+[0.853s] -- Install configuration: ""
+[0.853s] -- Installing: /home/derrickrose/ws02_tools/install/cpp01_launch/share/ament_index/resource_index/package_run_dependencies/cpp01_launch
+[0.853s] -- Installing: /home/derrickrose/ws02_tools/install/cpp01_launch/share/ament_index/resource_index/parent_prefix_path/cpp01_launch
+[0.853s] -- Installing: /home/derrickrose/ws02_tools/install/cpp01_launch/share/cpp01_launch/environment/ament_prefix_path.sh
+[0.853s] -- Installing: /home/derrickrose/ws02_tools/install/cpp01_launch/share/cpp01_launch/environment/ament_prefix_path.dsv
+[0.853s] -- Installing: /home/derrickrose/ws02_tools/install/cpp01_launch/share/cpp01_launch/environment/path.sh
+[0.853s] -- Installing: /home/derrickrose/ws02_tools/install/cpp01_launch/share/cpp01_launch/environment/path.dsv
+[0.853s] -- Installing: /home/derrickrose/ws02_tools/install/cpp01_launch/share/cpp01_launch/local_setup.bash
+[0.853s] -- Installing: /home/derrickrose/ws02_tools/install/cpp01_launch/share/cpp01_launch/local_setup.sh
+[0.853s] -- Installing: /home/derrickrose/ws02_tools/install/cpp01_launch/share/cpp01_launch/local_setup.zsh
+[0.854s] -- Installing: /home/derrickrose/ws02_tools/install/cpp01_launch/share/cpp01_launch/local_setup.dsv
+[0.854s] -- Installing: /home/derrickrose/ws02_tools/install/cpp01_launch/share/cpp01_launch/package.dsv
+[0.854s] -- Installing: /home/derrickrose/ws02_tools/install/cpp01_launch/share/ament_index/resource_index/packages/cpp01_launch
+[0.854s] -- Installing: /home/derrickrose/ws02_tools/install/cpp01_launch/share/cpp01_launch/cmake/cpp01_launchConfig.cmake
+[0.854s] -- Installing: /home/derrickrose/ws02_tools/install/cpp01_launch/share/cpp01_launch/cmake/cpp01_launchConfig-version.cmake
+[0.854s] -- Installing: /home/derrickrose/ws02_tools/install/cpp01_launch/share/cpp01_launch/package.xml
+[0.855s] Invoked command in '/home/derrickrose/ws02_tools/build/cpp01_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/derrickrose/ws02_tools/build/cpp01_launch

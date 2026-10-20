@@ -1,0 +1,4 @@
+{
+    "xml.downloadExternalResources.enabled": true,
+    "cmake.sourceDirectory": "/home/derrickrose/ws02_tools/src/cpp01_launch"
+}

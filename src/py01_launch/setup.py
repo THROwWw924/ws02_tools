@@ -1,5 +1,5 @@
 from setuptools import find_packages, setup
-
+from glob import glob
 package_name = 'py01_launch'
 
 setup(
@@ -11,9 +11,12 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         #launch文件相关配置
-        ('share/' + package_name, ['launch/py/py01_helloworld_launch.py']),
-        ('share/' + package_name, ['launch/xml/xml01_helloworld_launch.xml']),
-        ('share/' + package_name, ['launch/yaml/yaml01_helloworld_launch.yaml']),
+        # ('share/' + package_name, ['launch/py/py01_helloworld_launch.py']),
+        # ('share/' + package_name, ['launch/xml/xml01_helloworld_launch.xml']),
+        # ('share/' + package_name, ['launch/yaml/yaml01_helloworld_launch.yaml']),
+        ('share/' + package_name, glob("launch/py/*_launch.py")),#批量安装_launch.py
+        ('share/' + package_name, glob('launch/xml/*_launch.xml')),
+        ('share/' + package_name, glob('launch/yaml/*_launch.yaml')),
          
     ],
     install_requires=['setuptools'],

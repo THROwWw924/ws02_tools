@@ -43,7 +43,10 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp01_launch" TYPE DIRECTORY FILES "/home/derrickrose/ws02_tools/src/cpp01_launch/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp01_launch" TYPE DIRECTORY FILES
+    "/home/derrickrose/ws02_tools/src/cpp01_launch/launch"
+    "/home/derrickrose/ws02_tools/src/cpp01_launch/config"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

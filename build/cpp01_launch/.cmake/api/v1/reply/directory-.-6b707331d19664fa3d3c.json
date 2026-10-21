@@ -229,7 +229,8 @@
 			"destination" : "share/cpp01_launch",
 			"paths" : 
 			[
-				"launch"
+				"launch",
+				"config"
 			],
 			"type" : "directory"
 		},

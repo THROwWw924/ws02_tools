@@ -1,0 +1,4 @@
+Invoking command in '/home/derrickrose/ws02_tools/build/cpp01_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/derrickrose/ws02_tools/build/cpp01_launch -- -j16 -l16
+Invoked command in '/home/derrickrose/ws02_tools/build/cpp01_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/derrickrose/ws02_tools/build/cpp01_launch -- -j16 -l16
+Invoking command in '/home/derrickrose/ws02_tools/build/cpp01_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/derrickrose/ws02_tools/build/cpp01_launch
+Invoked command in '/home/derrickrose/ws02_tools/build/cpp01_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/derrickrose/ws02_tools/build/cpp01_launch

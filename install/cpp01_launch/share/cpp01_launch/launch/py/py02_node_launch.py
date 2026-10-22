@@ -48,6 +48,7 @@ def generate_launch_description():
     turtle2 = Node(
         package="turtlesim",
         executable="turtlesim_node",
+        respawn = True,#自动重启
         name="haha",
         #传入参数，修改参数
         #方式1

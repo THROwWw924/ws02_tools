@@ -2,7 +2,7 @@ from launch import LaunchDescription
 from launch_ros.actions import Node
 # 封装终端指令相关类--------------
 from launch.actions import ExecuteProcess
-# from launch.substitutions import FindExecutable
+from launch.substitutions import FindExecutable
 # 参数声明与获取-----------------
 # from launch.actions import DeclareLaunchArgument
 # from launch.substitutions import LaunchConfiguration
@@ -27,9 +27,8 @@ def generate_launch_description():
         executable="turtlesim_node"
     )
     #封装指令
-    cmd = ExecuteProcess(
-        cmd=["ros2 topic echo /turtle1/pose"],
-        output = "both",
-        shell = True
+    spawn = ExecuteProcess(cmd=["ros2 service call /spawn turtlesim/srv/Spawn \"{'x':8.0,'y':3.0}\""],#转义字符
+    output = "both",
+    shell = True,
     )
-    return LaunchDescription([turtle])
+    return LaunchDescription([turtle,spawn])

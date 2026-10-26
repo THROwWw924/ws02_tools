@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/py02_rosbag/py02_rosbag.egg-info/PKG-INFO
+../../build/py02_rosbag/py02_rosbag.egg-info/SOURCES.txt
+../../build/py02_rosbag/py02_rosbag.egg-info/dependency_links.txt
+../../build/py02_rosbag/py02_rosbag.egg-info/entry_points.txt
+../../build/py02_rosbag/py02_rosbag.egg-info/requires.txt
+../../build/py02_rosbag/py02_rosbag.egg-info/top_level.txt
+../../build/py02_rosbag/py02_rosbag.egg-info/zip-safe
+py02_rosbag/__init__.py
+py02_rosbag/demon01_writer.py
+py02_rosbag/demon02_reader.py
+resource/py02_rosbag
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

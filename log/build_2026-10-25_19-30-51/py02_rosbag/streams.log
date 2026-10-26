@@ -1,0 +1,40 @@
+[0.651s] Invoking command in '/home/derrickrose/ws02_tools/src/py02_rosbag': PYTHONPATH=/home/derrickrose/ws02_tools/build/py02_rosbag/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/derrickrose/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py02_rosbag build --build-base /home/derrickrose/ws02_tools/build/py02_rosbag/build install --record /home/derrickrose/ws02_tools/build/py02_rosbag/install.log --install-scripts $base/lib/py02_rosbag --single-version-externally-managed install_data
+[0.787s] running egg_info
+[0.787s] creating ../../build/py02_rosbag/py02_rosbag.egg-info
+[0.788s] writing ../../build/py02_rosbag/py02_rosbag.egg-info/PKG-INFO
+[0.788s] writing dependency_links to ../../build/py02_rosbag/py02_rosbag.egg-info/dependency_links.txt
+[0.788s] writing entry points to ../../build/py02_rosbag/py02_rosbag.egg-info/entry_points.txt
+[0.788s] writing requirements to ../../build/py02_rosbag/py02_rosbag.egg-info/requires.txt
+[0.788s] writing top-level names to ../../build/py02_rosbag/py02_rosbag.egg-info/top_level.txt
+[0.788s] writing manifest file '../../build/py02_rosbag/py02_rosbag.egg-info/SOURCES.txt'
+[0.789s] reading manifest file '../../build/py02_rosbag/py02_rosbag.egg-info/SOURCES.txt'
+[0.789s] writing manifest file '../../build/py02_rosbag/py02_rosbag.egg-info/SOURCES.txt'
+[0.789s] running build
+[0.789s] running build_py
+[0.789s] creating /home/derrickrose/ws02_tools/build/py02_rosbag/build
+[0.789s] creating /home/derrickrose/ws02_tools/build/py02_rosbag/build/lib
+[0.790s] creating /home/derrickrose/ws02_tools/build/py02_rosbag/build/lib/py02_rosbag
+[0.790s] copying py02_rosbag/demon01_writer.py -> /home/derrickrose/ws02_tools/build/py02_rosbag/build/lib/py02_rosbag
+[0.790s] copying py02_rosbag/__init__.py -> /home/derrickrose/ws02_tools/build/py02_rosbag/build/lib/py02_rosbag
+[0.790s] copying py02_rosbag/demon02_reader.py -> /home/derrickrose/ws02_tools/build/py02_rosbag/build/lib/py02_rosbag
+[0.790s] running install
+[0.790s] running install_lib
+[0.790s] creating /home/derrickrose/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag
+[0.790s] copying /home/derrickrose/ws02_tools/build/py02_rosbag/build/lib/py02_rosbag/demon01_writer.py -> /home/derrickrose/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag
+[0.790s] copying /home/derrickrose/ws02_tools/build/py02_rosbag/build/lib/py02_rosbag/__init__.py -> /home/derrickrose/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag
+[0.791s] copying /home/derrickrose/ws02_tools/build/py02_rosbag/build/lib/py02_rosbag/demon02_reader.py -> /home/derrickrose/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag
+[0.791s] byte-compiling /home/derrickrose/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag/demon01_writer.py to demon01_writer.cpython-310.pyc
+[0.791s] byte-compiling /home/derrickrose/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag/__init__.py to __init__.cpython-310.pyc
+[0.791s] byte-compiling /home/derrickrose/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag/demon02_reader.py to demon02_reader.cpython-310.pyc
+[0.791s] running install_data
+[0.792s] creating /home/derrickrose/ws02_tools/install/py02_rosbag/share/ament_index
+[0.792s] creating /home/derrickrose/ws02_tools/install/py02_rosbag/share/ament_index/resource_index
+[0.792s] creating /home/derrickrose/ws02_tools/install/py02_rosbag/share/ament_index/resource_index/packages
+[0.792s] copying resource/py02_rosbag -> /home/derrickrose/ws02_tools/install/py02_rosbag/share/ament_index/resource_index/packages
+[0.792s] copying package.xml -> /home/derrickrose/ws02_tools/install/py02_rosbag/share/py02_rosbag
+[0.792s] running install_egg_info
+[0.793s] Copying ../../build/py02_rosbag/py02_rosbag.egg-info to /home/derrickrose/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag-0.0.0-py3.10.egg-info
+[0.793s] running install_scripts
+[0.806s] Installing demon01_writer script to /home/derrickrose/ws02_tools/install/py02_rosbag/lib/py02_rosbag
+[0.806s] writing list of installed files to '/home/derrickrose/ws02_tools/build/py02_rosbag/install.log'
+[0.831s] Invoked command in '/home/derrickrose/ws02_tools/src/py02_rosbag' returned '0': PYTHONPATH=/home/derrickrose/ws02_tools/build/py02_rosbag/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/derrickrose/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py02_rosbag build --build-base /home/derrickrose/ws02_tools/build/py02_rosbag/build install --record /home/derrickrose/ws02_tools/build/py02_rosbag/install.log --install-scripts $base/lib/py02_rosbag --single-version-externally-managed install_data

@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/py02_rosbag/py02_rosbag.egg-info
+writing ../../build/py02_rosbag/py02_rosbag.egg-info/PKG-INFO
+writing dependency_links to ../../build/py02_rosbag/py02_rosbag.egg-info/dependency_links.txt
+writing entry points to ../../build/py02_rosbag/py02_rosbag.egg-info/entry_points.txt
+writing requirements to ../../build/py02_rosbag/py02_rosbag.egg-info/requires.txt
+writing top-level names to ../../build/py02_rosbag/py02_rosbag.egg-info/top_level.txt
+writing manifest file '../../build/py02_rosbag/py02_rosbag.egg-info/SOURCES.txt'
+reading manifest file '../../build/py02_rosbag/py02_rosbag.egg-info/SOURCES.txt'
+writing manifest file '../../build/py02_rosbag/py02_rosbag.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/derrickrose/ws02_tools/build/py02_rosbag/build
+creating /home/derrickrose/ws02_tools/build/py02_rosbag/build/lib
+creating /home/derrickrose/ws02_tools/build/py02_rosbag/build/lib/py02_rosbag
+copying py02_rosbag/demon01_writer.py -> /home/derrickrose/ws02_tools/build/py02_rosbag/build/lib/py02_rosbag
+copying py02_rosbag/__init__.py -> /home/derrickrose/ws02_tools/build/py02_rosbag/build/lib/py02_rosbag
+copying py02_rosbag/demon02_reader.py -> /home/derrickrose/ws02_tools/build/py02_rosbag/build/lib/py02_rosbag
+running install
+running install_lib
+creating /home/derrickrose/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag
+copying /home/derrickrose/ws02_tools/build/py02_rosbag/build/lib/py02_rosbag/demon01_writer.py -> /home/derrickrose/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag
+copying /home/derrickrose/ws02_tools/build/py02_rosbag/build/lib/py02_rosbag/__init__.py -> /home/derrickrose/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag
+copying /home/derrickrose/ws02_tools/build/py02_rosbag/build/lib/py02_rosbag/demon02_reader.py -> /home/derrickrose/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag
+byte-compiling /home/derrickrose/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag/demon01_writer.py to demon01_writer.cpython-310.pyc
+byte-compiling /home/derrickrose/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/derrickrose/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag/demon02_reader.py to demon02_reader.cpython-310.pyc
+running install_data
+creating /home/derrickrose/ws02_tools/install/py02_rosbag/share/ament_index
+creating /home/derrickrose/ws02_tools/install/py02_rosbag/share/ament_index/resource_index
+creating /home/derrickrose/ws02_tools/install/py02_rosbag/share/ament_index/resource_index/packages
+copying resource/py02_rosbag -> /home/derrickrose/ws02_tools/install/py02_rosbag/share/ament_index/resource_index/packages
+copying package.xml -> /home/derrickrose/ws02_tools/install/py02_rosbag/share/py02_rosbag
+running install_egg_info
+Copying ../../build/py02_rosbag/py02_rosbag.egg-info to /home/derrickrose/ws02_tools/install/py02_rosbag/lib/python3.10/site-packages/py02_rosbag-0.0.0-py3.10.egg-info
+running install_scripts
+Installing demon01_writer script to /home/derrickrose/ws02_tools/install/py02_rosbag/lib/py02_rosbag
+writing list of installed files to '/home/derrickrose/ws02_tools/build/py02_rosbag/install.log'

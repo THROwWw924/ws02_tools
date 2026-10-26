@@ -1,0 +1,3 @@
+[console_scripts]
+demon01_writer = py02_rosbag.demon01_writer:main
+

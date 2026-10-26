@@ -1,0 +1,6 @@
+source;share/py02_rosbag/hook/pythonpath.ps1
+source;share/py02_rosbag/hook/pythonpath.dsv
+source;share/py02_rosbag/hook/pythonpath.sh
+source;share/py02_rosbag/hook/ament_prefix_path.ps1
+source;share/py02_rosbag/hook/ament_prefix_path.dsv
+source;share/py02_rosbag/hook/ament_prefix_path.sh

@@ -1,4 +1,5 @@
 {
     "xml.downloadExternalResources.enabled": true,
-    "cmake.sourceDirectory": "/home/derrickrose/ws02_tools/src/cpp01_launch"
+    "cmake.sourceDirectory": "/home/derrickrose/ws02_tools/src/cpp01_launch",
+    "python-envs.defaultEnvManager": "ms-python.python:system"
 }

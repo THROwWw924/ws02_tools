@@ -48,8 +48,11 @@ private:
     //设置欧拉角（四元数）
     //将欧拉角转换成四元数
     tf2::Quaternion qtn;
-    qtn.setRPY()
-    transform.transform.rotation.x = 
+    qtn.setRPY(atof(argv[4]),atof(argv[5]),atof(argv[6]));
+    transform.transform.rotation.x = qtn.x();
+    transform.transform.rotation.y = qtn.y();
+    transform.transform.rotation.z = qtn.z();
+    transform.transform.rotation.w = qtn.w();
     //发布
     Broadcaster_->sendTransform(transform);
   }

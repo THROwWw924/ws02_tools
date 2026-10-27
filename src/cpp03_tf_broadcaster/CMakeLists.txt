@@ -14,6 +14,7 @@ find_package(geometry_msgs REQUIRED)
 find_package(turtlesim REQUIRED)
 
 add_executable(demo01_tf_static_broadcaster_cpp src/demo01_tf_static_broadcaster_cpp.cpp)
+add_executable(demo02_tf_dynamic_broadcaster_cpp src/demo02_tf_dynamic_broadcaster_cpp.cpp)
 target_include_directories(demo01_tf_static_broadcaster_cpp PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
@@ -26,8 +27,18 @@ ament_target_dependencies(
   "geometry_msgs"
   "turtlesim"
 )
+ament_target_dependencies(
+  demo02_tf_dynamic_broadcaster_cpp
+  "rclcpp"
+  "tf2"
+  "tf2_ros"
+  "geometry_msgs"
+  "turtlesim"
+)
 
-install(TARGETS demo01_tf_static_broadcaster_cpp
+install(TARGETS 
+  demo01_tf_static_broadcaster_cpp
+  demo02_tf_dynamic_broadcaster_cpp
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

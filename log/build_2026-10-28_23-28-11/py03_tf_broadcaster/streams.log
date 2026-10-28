@@ -1,0 +1,26 @@
+[0.324s] Invoking command in '/home/derrickrose/ws02_tools/src/py03_tf_broadcaster': PYTHONPATH=/home/derrickrose/ws02_tools/build/py03_tf_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/derrickrose/ws02_tools/install/py03_tf_broadcaster/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py03_tf_broadcaster build --build-base /home/derrickrose/ws02_tools/build/py03_tf_broadcaster/build install --record /home/derrickrose/ws02_tools/build/py03_tf_broadcaster/install.log --install-scripts $base/lib/py03_tf_broadcaster --single-version-externally-managed install_data
+[0.453s] running egg_info
+[0.453s] writing ../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/PKG-INFO
+[0.454s] writing dependency_links to ../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/dependency_links.txt
+[0.454s] writing entry points to ../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/entry_points.txt
+[0.454s] writing requirements to ../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/requires.txt
+[0.454s] writing top-level names to ../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/top_level.txt
+[0.455s] reading manifest file '../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/SOURCES.txt'
+[0.455s] writing manifest file '../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/SOURCES.txt'
+[0.455s] running build
+[0.455s] running build_py
+[0.456s] copying py03_tf_broadcaster/demon03_tf_point_py.py -> /home/derrickrose/ws02_tools/build/py03_tf_broadcaster/build/lib/py03_tf_broadcaster
+[0.456s] running install
+[0.456s] running install_lib
+[0.457s] copying /home/derrickrose/ws02_tools/build/py03_tf_broadcaster/build/lib/py03_tf_broadcaster/demon03_tf_point_py.py -> /home/derrickrose/ws02_tools/install/py03_tf_broadcaster/lib/python3.10/site-packages/py03_tf_broadcaster
+[0.457s] byte-compiling /home/derrickrose/ws02_tools/install/py03_tf_broadcaster/lib/python3.10/site-packages/py03_tf_broadcaster/demon03_tf_point_py.py to demon03_tf_point_py.cpython-310.pyc
+[0.457s] running install_data
+[0.457s] running install_egg_info
+[0.459s] removing '/home/derrickrose/ws02_tools/install/py03_tf_broadcaster/lib/python3.10/site-packages/py03_tf_broadcaster-0.0.0-py3.10.egg-info' (and everything under it)
+[0.459s] Copying ../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info to /home/derrickrose/ws02_tools/install/py03_tf_broadcaster/lib/python3.10/site-packages/py03_tf_broadcaster-0.0.0-py3.10.egg-info
+[0.459s] running install_scripts
+[0.471s] Installing demon01_tf_static_broadcaster_py script to /home/derrickrose/ws02_tools/install/py03_tf_broadcaster/lib/py03_tf_broadcaster
+[0.471s] Installing demon02_tf_dynamic_broadcaster_py script to /home/derrickrose/ws02_tools/install/py03_tf_broadcaster/lib/py03_tf_broadcaster
+[0.471s] Installing demon03_tf_point_py script to /home/derrickrose/ws02_tools/install/py03_tf_broadcaster/lib/py03_tf_broadcaster
+[0.471s] writing list of installed files to '/home/derrickrose/ws02_tools/build/py03_tf_broadcaster/install.log'
+[0.484s] Invoked command in '/home/derrickrose/ws02_tools/src/py03_tf_broadcaster' returned '0': PYTHONPATH=/home/derrickrose/ws02_tools/build/py03_tf_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/derrickrose/ws02_tools/install/py03_tf_broadcaster/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py03_tf_broadcaster build --build-base /home/derrickrose/ws02_tools/build/py03_tf_broadcaster/build install --record /home/derrickrose/ws02_tools/build/py03_tf_broadcaster/install.log --install-scripts $base/lib/py03_tf_broadcaster --single-version-externally-managed install_data

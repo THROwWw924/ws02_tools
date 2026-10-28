@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/home/derrickrose/ws02_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/derrickrose/ws02_tools/install/py03_tf_broadcaster:/home/derrickrose/ws02_tools/install/py02_rosbag:/home/derrickrose/ws02_tools/install/py01_launch:/opt/ros/humble /usr/bin/cmake --build /home/derrickrose/ws02_tools/build/cpp03_tf_broadcaster -- -j20 -l20
+[0.048s] [ 33%] Built target demo01_tf_static_broadcaster_cpp
+[0.050s] [100%] Built target demo03_point_publisher
+[0.050s] [100%] Built target demo02_tf_dynamic_broadcaster_cpp
+[0.059s] Invoked command in '/home/derrickrose/ws02_tools/build/cpp03_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/derrickrose/ws02_tools/install/py03_tf_broadcaster:/home/derrickrose/ws02_tools/install/py02_rosbag:/home/derrickrose/ws02_tools/install/py01_launch:/opt/ros/humble /usr/bin/cmake --build /home/derrickrose/ws02_tools/build/cpp03_tf_broadcaster -- -j20 -l20
+[0.066s] Invoking command in '/home/derrickrose/ws02_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/derrickrose/ws02_tools/install/py03_tf_broadcaster:/home/derrickrose/ws02_tools/install/py02_rosbag:/home/derrickrose/ws02_tools/install/py01_launch:/opt/ros/humble /usr/bin/cmake --install /home/derrickrose/ws02_tools/build/cpp03_tf_broadcaster
+[0.071s] -- Install configuration: ""
+[0.071s] -- Up-to-date: /home/derrickrose/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo01_tf_static_broadcaster_cpp
+[0.071s] -- Up-to-date: /home/derrickrose/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo02_tf_dynamic_broadcaster_cpp
+[0.071s] -- Up-to-date: /home/derrickrose/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo03_point_publisher
+[0.071s] -- Up-to-date: /home/derrickrose/ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/package_run_dependencies/cpp03_tf_broadcaster
+[0.071s] -- Up-to-date: /home/derrickrose/ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/parent_prefix_path/cpp03_tf_broadcaster
+[0.071s] -- Up-to-date: /home/derrickrose/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/ament_prefix_path.sh
+[0.071s] -- Up-to-date: /home/derrickrose/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/ament_prefix_path.dsv
+[0.071s] -- Up-to-date: /home/derrickrose/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/path.sh
+[0.072s] -- Up-to-date: /home/derrickrose/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/path.dsv
+[0.072s] -- Up-to-date: /home/derrickrose/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.bash
+[0.072s] -- Up-to-date: /home/derrickrose/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.sh
+[0.072s] -- Up-to-date: /home/derrickrose/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.zsh
+[0.072s] -- Up-to-date: /home/derrickrose/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.dsv
+[0.072s] -- Installing: /home/derrickrose/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.dsv
+[0.072s] -- Up-to-date: /home/derrickrose/ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/packages/cpp03_tf_broadcaster
+[0.072s] -- Up-to-date: /home/derrickrose/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/cmake/cpp03_tf_broadcasterConfig.cmake
+[0.072s] -- Up-to-date: /home/derrickrose/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/cmake/cpp03_tf_broadcasterConfig-version.cmake
+[0.072s] -- Up-to-date: /home/derrickrose/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.xml
+[0.073s] Invoked command in '/home/derrickrose/ws02_tools/build/cpp03_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/derrickrose/ws02_tools/install/py03_tf_broadcaster:/home/derrickrose/ws02_tools/install/py02_rosbag:/home/derrickrose/ws02_tools/install/py01_launch:/opt/ros/humble /usr/bin/cmake --install /home/derrickrose/ws02_tools/build/cpp03_tf_broadcaster

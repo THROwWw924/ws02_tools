@@ -1,0 +1,7 @@
+[01m[K/home/derrickrose/ws02_tools/src/cpp03_tf_broadcaster/src/demo02_tf_dynamic_broadcaster_cpp.cpp:[m[K In constructor ‘[01m[KTF_dynamic_node::TF_dynamic_node()[m[K’:
+[01m[K/home/derrickrose/ws02_tools/src/cpp03_tf_broadcaster/src/demo02_tf_dynamic_broadcaster_cpp.cpp:25:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   25 |   [01;31m[K}[m[K
+      |   [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/demo02_tf_dynamic_broadcaster_cpp.dir/build.make:76：CMakeFiles/demo02_tf_dynamic_broadcaster_cpp.dir/src/demo02_tf_dynamic_broadcaster_cpp.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/demo02_tf_dynamic_broadcaster_cpp.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

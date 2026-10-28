@@ -28,16 +28,15 @@ class Dynamic_tf_node(Node):
         #创建动态坐标发布方
         self.tf_pub = TransformBroadcaster(self)
         #创建乌龟位姿订阅方
-        self.pose_sub = self.create_subscription(
+        self.pose_sub = self.create_subscription( 
             Pose,
-            '/turtle1/pose'
+            '/turtle1/pose',
             self.handle_pose,
-            1
-        )
+            1)
         #根据乌龟位姿生成坐标帧并广播
-    def pose_pub(self,msg):
+    def handle_pose(self,msg):
         #组织消息
-        t = TransformStamped();#创建消息对象
+        t = TransformStamped()#创建消息对象
         t.header.stamp = self.get_clock().now().to_msg()
         t.header.frame_id = "world"
         t.child_frame_id = "turtle1"

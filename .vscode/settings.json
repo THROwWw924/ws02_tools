@@ -1,5 +1,9 @@
 {
-    "xml.downloadExternalResources.enabled": true,
-    "cmake.sourceDirectory": "/home/derrickrose/ws02_tools/src/cpp01_launch",
-    "python-envs.defaultEnvManager": "ms-python.python:system"
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "python.analysis.extraPaths": [
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages"
+    ],
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "cmake.sourceDirectory": "/home/derrickrose/ws02_tools/src/cpp03_tf_broadcaster"
 }

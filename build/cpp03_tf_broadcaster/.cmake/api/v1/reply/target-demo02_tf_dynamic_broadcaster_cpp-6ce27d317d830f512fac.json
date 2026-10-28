@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "demo01_tf_static_broadcaster_cpp"
+			"path" : "demo02_tf_dynamic_broadcaster_cpp"
 		}
 	],
 	"backtrace" : 1,
@@ -30,19 +30,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 16,
+				"line" : 17,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 30,
+				"line" : 48,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 21,
+				"line" : 39,
 				"parent" : 0
 			},
 			{
@@ -55,12 +55,6 @@
 				"command" : 4,
 				"file" : 0,
 				"line" : 5,
-				"parent" : 0
-			},
-			{
-				"command" : 5,
-				"file" : 0,
-				"line" : 17,
 				"parent" : 0
 			},
 			{
@@ -108,30 +102,26 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "/home/derrickrose/ws02_tools/src/cpp03_tf_broadcaster/include"
-				},
-				{
-					"backtrace" : 7,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rclcpp"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/tf2"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/tf2_ros"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/geometry_msgs"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/turtlesim"
 				},
@@ -298,7 +288,7 @@
 			]
 		}
 	],
-	"id" : "demo01_tf_static_broadcaster_cpp::@6890427a1f51a3e7e1df",
+	"id" : "demo02_tf_dynamic_broadcaster_cpp::@6890427a1f51a3e7e1df",
 	"install" : 
 	{
 		"destinations" : 
@@ -788,8 +778,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "demo01_tf_static_broadcaster_cpp",
-	"nameOnDisk" : "demo01_tf_static_broadcaster_cpp",
+	"name" : "demo02_tf_dynamic_broadcaster_cpp",
+	"nameOnDisk" : "demo02_tf_dynamic_broadcaster_cpp",
 	"paths" : 
 	{
 		"build" : ".",
@@ -810,7 +800,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/demo01_tf_static_broadcaster_cpp.cpp",
+			"path" : "src/demo02_tf_dynamic_broadcaster_cpp.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

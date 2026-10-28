@@ -1,6 +1,8 @@
 /home/derrickrose/ws02_tools/build/cpp03_tf_broadcaster/CMakeFiles/uninstall.dir
 /home/derrickrose/ws02_tools/build/cpp03_tf_broadcaster/CMakeFiles/cpp03_tf_broadcaster_uninstall.dir
 /home/derrickrose/ws02_tools/build/cpp03_tf_broadcaster/CMakeFiles/demo01_tf_static_broadcaster_cpp.dir
+/home/derrickrose/ws02_tools/build/cpp03_tf_broadcaster/CMakeFiles/demo02_tf_dynamic_broadcaster_cpp.dir
+/home/derrickrose/ws02_tools/build/cpp03_tf_broadcaster/CMakeFiles/demo03_point_publisher.dir
 /home/derrickrose/ws02_tools/build/cpp03_tf_broadcaster/CMakeFiles/test.dir
 /home/derrickrose/ws02_tools/build/cpp03_tf_broadcaster/CMakeFiles/edit_cache.dir
 /home/derrickrose/ws02_tools/build/cpp03_tf_broadcaster/CMakeFiles/rebuild_cache.dir

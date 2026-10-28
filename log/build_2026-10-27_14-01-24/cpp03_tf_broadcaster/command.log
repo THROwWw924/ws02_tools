@@ -1,0 +1,2 @@
+Invoking command in '/home/derrickrose/ws02_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/derrickrose/ws02_tools/build/cpp03_tf_broadcaster -- -j20 -l20
+Invoked command in '/home/derrickrose/ws02_tools/build/cpp03_tf_broadcaster' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/derrickrose/ws02_tools/build/cpp03_tf_broadcaster -- -j20 -l20

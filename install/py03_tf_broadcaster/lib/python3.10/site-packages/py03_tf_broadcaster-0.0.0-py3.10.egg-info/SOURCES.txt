@@ -10,6 +10,7 @@ setup.py
 ../../build/py03_tf_broadcaster/py03_tf_broadcaster.egg-info/zip-safe
 py03_tf_broadcaster/__init__.py
 py03_tf_broadcaster/demon01_tf_static_broadcaster_py.py
+py03_tf_broadcaster/demon02_tf_dynamic_broadcaster_py.py
 resource/py03_tf_broadcaster
 test/test_copyright.py
 test/test_flake8.py

@@ -210,6 +210,32 @@ demo01_tf_static_broadcaster_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo01_tf_static_broadcaster_cpp.dir/build.make CMakeFiles/demo01_tf_static_broadcaster_cpp.dir/build
 .PHONY : demo01_tf_static_broadcaster_cpp/fast
 
+#=============================================================================
+# Target rules for targets named demo02_tf_dynamic_broadcaster_cpp
+
+# Build rule for target.
+demo02_tf_dynamic_broadcaster_cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 demo02_tf_dynamic_broadcaster_cpp
+.PHONY : demo02_tf_dynamic_broadcaster_cpp
+
+# fast build rule for target.
+demo02_tf_dynamic_broadcaster_cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo02_tf_dynamic_broadcaster_cpp.dir/build.make CMakeFiles/demo02_tf_dynamic_broadcaster_cpp.dir/build
+.PHONY : demo02_tf_dynamic_broadcaster_cpp/fast
+
+#=============================================================================
+# Target rules for targets named demo03_point_publisher
+
+# Build rule for target.
+demo03_point_publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 demo03_point_publisher
+.PHONY : demo03_point_publisher
+
+# fast build rule for target.
+demo03_point_publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo03_point_publisher.dir/build.make CMakeFiles/demo03_point_publisher.dir/build
+.PHONY : demo03_point_publisher/fast
+
 src/demo01_tf_static_broadcaster_cpp.o: src/demo01_tf_static_broadcaster_cpp.cpp.o
 .PHONY : src/demo01_tf_static_broadcaster_cpp.o
 
@@ -234,6 +260,54 @@ src/demo01_tf_static_broadcaster_cpp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo01_tf_static_broadcaster_cpp.dir/build.make CMakeFiles/demo01_tf_static_broadcaster_cpp.dir/src/demo01_tf_static_broadcaster_cpp.cpp.s
 .PHONY : src/demo01_tf_static_broadcaster_cpp.cpp.s
 
+src/demo02_tf_dynamic_broadcaster_cpp.o: src/demo02_tf_dynamic_broadcaster_cpp.cpp.o
+.PHONY : src/demo02_tf_dynamic_broadcaster_cpp.o
+
+# target to build an object file
+src/demo02_tf_dynamic_broadcaster_cpp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo02_tf_dynamic_broadcaster_cpp.dir/build.make CMakeFiles/demo02_tf_dynamic_broadcaster_cpp.dir/src/demo02_tf_dynamic_broadcaster_cpp.cpp.o
+.PHONY : src/demo02_tf_dynamic_broadcaster_cpp.cpp.o
+
+src/demo02_tf_dynamic_broadcaster_cpp.i: src/demo02_tf_dynamic_broadcaster_cpp.cpp.i
+.PHONY : src/demo02_tf_dynamic_broadcaster_cpp.i
+
+# target to preprocess a source file
+src/demo02_tf_dynamic_broadcaster_cpp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo02_tf_dynamic_broadcaster_cpp.dir/build.make CMakeFiles/demo02_tf_dynamic_broadcaster_cpp.dir/src/demo02_tf_dynamic_broadcaster_cpp.cpp.i
+.PHONY : src/demo02_tf_dynamic_broadcaster_cpp.cpp.i
+
+src/demo02_tf_dynamic_broadcaster_cpp.s: src/demo02_tf_dynamic_broadcaster_cpp.cpp.s
+.PHONY : src/demo02_tf_dynamic_broadcaster_cpp.s
+
+# target to generate assembly for a file
+src/demo02_tf_dynamic_broadcaster_cpp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo02_tf_dynamic_broadcaster_cpp.dir/build.make CMakeFiles/demo02_tf_dynamic_broadcaster_cpp.dir/src/demo02_tf_dynamic_broadcaster_cpp.cpp.s
+.PHONY : src/demo02_tf_dynamic_broadcaster_cpp.cpp.s
+
+src/demo03_point_publisher.o: src/demo03_point_publisher.cpp.o
+.PHONY : src/demo03_point_publisher.o
+
+# target to build an object file
+src/demo03_point_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo03_point_publisher.dir/build.make CMakeFiles/demo03_point_publisher.dir/src/demo03_point_publisher.cpp.o
+.PHONY : src/demo03_point_publisher.cpp.o
+
+src/demo03_point_publisher.i: src/demo03_point_publisher.cpp.i
+.PHONY : src/demo03_point_publisher.i
+
+# target to preprocess a source file
+src/demo03_point_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo03_point_publisher.dir/build.make CMakeFiles/demo03_point_publisher.dir/src/demo03_point_publisher.cpp.i
+.PHONY : src/demo03_point_publisher.cpp.i
+
+src/demo03_point_publisher.s: src/demo03_point_publisher.cpp.s
+.PHONY : src/demo03_point_publisher.s
+
+# target to generate assembly for a file
+src/demo03_point_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo03_point_publisher.dir/build.make CMakeFiles/demo03_point_publisher.dir/src/demo03_point_publisher.cpp.s
+.PHONY : src/demo03_point_publisher.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +324,17 @@ help:
 	@echo "... cpp03_tf_broadcaster_uninstall"
 	@echo "... uninstall"
 	@echo "... demo01_tf_static_broadcaster_cpp"
+	@echo "... demo02_tf_dynamic_broadcaster_cpp"
+	@echo "... demo03_point_publisher"
 	@echo "... src/demo01_tf_static_broadcaster_cpp.o"
 	@echo "... src/demo01_tf_static_broadcaster_cpp.i"
 	@echo "... src/demo01_tf_static_broadcaster_cpp.s"
+	@echo "... src/demo02_tf_dynamic_broadcaster_cpp.o"
+	@echo "... src/demo02_tf_dynamic_broadcaster_cpp.i"
+	@echo "... src/demo02_tf_dynamic_broadcaster_cpp.s"
+	@echo "... src/demo03_point_publisher.o"
+	@echo "... src/demo03_point_publisher.i"
+	@echo "... src/demo03_point_publisher.s"
 .PHONY : help
 
 

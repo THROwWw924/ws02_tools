@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-3778e873923c2e2993f4.json",
+					"jsonFile" : "directory-.-5274002b487c12db167d.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -18,7 +18,9 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3,
+						4
 					]
 				}
 			],
@@ -35,7 +37,9 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3,
+						4
 					]
 				}
 			],
@@ -51,8 +55,22 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "demo01_tf_static_broadcaster_cpp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-demo01_tf_static_broadcaster_cpp-8e894aa5f69826b389d3.json",
+					"jsonFile" : "target-demo01_tf_static_broadcaster_cpp-4461c9b44910c8ed0c0e.json",
 					"name" : "demo01_tf_static_broadcaster_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo02_tf_dynamic_broadcaster_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo02_tf_dynamic_broadcaster_cpp-6ce27d317d830f512fac.json",
+					"name" : "demo02_tf_dynamic_broadcaster_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo03_point_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo03_point_publisher-49c9e80a49cafbc666e9.json",
+					"name" : "demo03_point_publisher",
 					"projectIndex" : 0
 				},
 				{

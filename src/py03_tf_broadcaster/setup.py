@@ -24,7 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'demon01_tf_static_broadcaster_py = py03_tf_broadcaster.demon01_tf_static_broadcaster_py:main'
+            'demon01_tf_static_broadcaster_py = py03_tf_broadcaster.demon01_tf_static_broadcaster_py:main',
+            'demon02_tf_dynamic_broadcaster_py = py03_tf_broadcaster.demon02_tf_dynamic_broadcaster_py:main'
         ],
     },
 )

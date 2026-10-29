@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target tf_lisenter[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/tf_lisenter.dir/src/tf_lisenter.cpp.o[0m
+[100%] [32m[1mLinking CXX executable tf_lisenter[0m
+[100%] Built target tf_lisenter
+-- Install configuration: ""
+-- Installing: /home/derrickrose/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/tf_lisenter
+-- Set runtime path of "/home/derrickrose/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/tf_lisenter" to ""
+-- Up-to-date: /home/derrickrose/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/package_run_dependencies/cpp04_tf_listener
+-- Up-to-date: /home/derrickrose/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/parent_prefix_path/cpp04_tf_listener
+-- Up-to-date: /home/derrickrose/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.sh
+-- Up-to-date: /home/derrickrose/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/derrickrose/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.sh
+-- Up-to-date: /home/derrickrose/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.dsv
+-- Up-to-date: /home/derrickrose/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.bash
+-- Up-to-date: /home/derrickrose/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.sh
+-- Up-to-date: /home/derrickrose/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.zsh
+-- Up-to-date: /home/derrickrose/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.dsv
+-- Installing: /home/derrickrose/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.dsv
+-- Up-to-date: /home/derrickrose/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/packages/cpp04_tf_listener
+-- Up-to-date: /home/derrickrose/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig.cmake
+-- Up-to-date: /home/derrickrose/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig-version.cmake
+-- Up-to-date: /home/derrickrose/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.xml

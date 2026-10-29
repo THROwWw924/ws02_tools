@@ -1,0 +1,3 @@
+[console_scripts]
+tf_lisenter = py04_tf_listener.tf_lisenter:main
+
